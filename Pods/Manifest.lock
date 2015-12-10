@@ -1,0 +1,18 @@
+PODS:
+  - Color-Picker-for-iOS (2.0.2)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - WEPopover (2.1.3)
+
+DEPENDENCIES:
+  - Color-Picker-for-iOS (~> 2.0)
+  - SDWebImage (~> 3.7.3)
+  - WEPopover (~> 2.1.0)
+
+SPEC CHECKSUMS:
+  Color-Picker-for-iOS: 4980589b3e3cfe7198f227dd50be9adb02d8bc0b
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  WEPopover: 6ae837be6becaf3408f4c0f228c2f7e17ff08306
+
+COCOAPODS: 0.39.0

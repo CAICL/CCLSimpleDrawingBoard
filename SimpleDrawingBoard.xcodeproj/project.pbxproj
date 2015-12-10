@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E10E33E1C199E1600CE04AB /* CCLFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E33D1C199E1600CE04AB /* CCLFunctionViewController.m */; };
+		1E10E3411C19AE6400CE04AB /* UITableViewCell+CCLPopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E3401C19AE6400CE04AB /* UITableViewCell+CCLPopCell.m */; };
+		1E1E49131C1909DF005F1B33 /* CCLPaintbrushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1E49121C1909DF005F1B33 /* CCLPaintbrushViewController.m */; };
+		1E1E49171C19164A005F1B33 /* UIButton+CCLBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1E49161C19164A005F1B33 /* UIButton+CCLBtn.m */; };
+		1E1E491A1C191C87005F1B33 /* CCLBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1E49191C191C87005F1B33 /* CCLBackgroundViewController.m */; };
+		1E6EACBE1C0BD7920021B80F /* CCLPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EACBB1C0BD7920021B80F /* CCLPath.m */; };
+		1E6EACBF1C0BD7920021B80F /* CCLSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EACBD1C0BD7920021B80F /* CCLSetting.m */; };
+		1E6EACC21C0BD7A80021B80F /* CCLDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EACC11C0BD7A80021B80F /* CCLDrawingView.m */; };
+		1E6EACC51C0BD7B30021B80F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EACC41C0BD7B30021B80F /* ViewController.m */; };
+		513A07D98001C0C5836D6359 /* libPods-SimpleDrawingBoard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC99F6E0D174175D9B68D7BD /* libPods-SimpleDrawingBoard.a */; };
+		6EB4C14A1BE5077E005C312F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4C1491BE5077E005C312F /* main.m */; };
+		6EB4C14D1BE5077E005C312F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4C14C1BE5077E005C312F /* AppDelegate.m */; };
+		6EB4C1531BE5077E005C312F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4C1511BE5077E005C312F /* Main.storyboard */; };
+		6EB4C1551BE5077E005C312F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4C1541BE5077E005C312F /* Assets.xcassets */; };
+		6EB4C1581BE5077E005C312F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4C1561BE5077E005C312F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E10E33C1C199E1600CE04AB /* CCLFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLFunctionViewController.h; sourceTree = "<group>"; };
+		1E10E33D1C199E1600CE04AB /* CCLFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLFunctionViewController.m; sourceTree = "<group>"; };
+		1E10E33F1C19AE6400CE04AB /* UITableViewCell+CCLPopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+CCLPopCell.h"; sourceTree = "<group>"; };
+		1E10E3401C19AE6400CE04AB /* UITableViewCell+CCLPopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+CCLPopCell.m"; sourceTree = "<group>"; };
+		1E1E49111C1909DF005F1B33 /* CCLPaintbrushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLPaintbrushViewController.h; sourceTree = "<group>"; };
+		1E1E49121C1909DF005F1B33 /* CCLPaintbrushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLPaintbrushViewController.m; sourceTree = "<group>"; };
+		1E1E49151C19164A005F1B33 /* UIButton+CCLBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CCLBtn.h"; sourceTree = "<group>"; };
+		1E1E49161C19164A005F1B33 /* UIButton+CCLBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CCLBtn.m"; sourceTree = "<group>"; };
+		1E1E49181C191C87005F1B33 /* CCLBackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLBackgroundViewController.h; sourceTree = "<group>"; };
+		1E1E49191C191C87005F1B33 /* CCLBackgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLBackgroundViewController.m; sourceTree = "<group>"; };
+		1E56A6A5E0C3B4974A1E0650 /* Pods-SimpleDrawingBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleDrawingBoard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleDrawingBoard/Pods-SimpleDrawingBoard.debug.xcconfig"; sourceTree = "<group>"; };
+		1E6EACBA1C0BD7920021B80F /* CCLPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLPath.h; sourceTree = "<group>"; };
+		1E6EACBB1C0BD7920021B80F /* CCLPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLPath.m; sourceTree = "<group>"; };
+		1E6EACBC1C0BD7920021B80F /* CCLSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLSetting.h; sourceTree = "<group>"; };
+		1E6EACBD1C0BD7920021B80F /* CCLSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLSetting.m; sourceTree = "<group>"; };
+		1E6EACC01C0BD7A80021B80F /* CCLDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLDrawingView.h; sourceTree = "<group>"; };
+		1E6EACC11C0BD7A80021B80F /* CCLDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLDrawingView.m; sourceTree = "<group>"; };
+		1E6EACC31C0BD7B30021B80F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E6EACC41C0BD7B30021B80F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6EB4C1451BE5077E005C312F /* SimpleDrawingBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDrawingBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB4C1491BE5077E005C312F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EB4C14B1BE5077E005C312F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		6EB4C14C1BE5077E005C312F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		6EB4C1521BE5077E005C312F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EB4C1541BE5077E005C312F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EB4C1571BE5077E005C312F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EB4C1591BE5077E005C312F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		B928D9C246E0A8711D777253 /* Pods-SimpleDrawingBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleDrawingBoard.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleDrawingBoard/Pods-SimpleDrawingBoard.release.xcconfig"; sourceTree = "<group>"; };
+		FC99F6E0D174175D9B68D7BD /* libPods-SimpleDrawingBoard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleDrawingBoard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EB4C1421BE5077E005C312F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513A07D98001C0C5836D6359 /* libPods-SimpleDrawingBoard.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E1E49141C1915DD005F1B33 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1E1E49151C19164A005F1B33 /* UIButton+CCLBtn.h */,
+				1E1E49161C19164A005F1B33 /* UIButton+CCLBtn.m */,
+				1E10E33F1C19AE6400CE04AB /* UITableViewCell+CCLPopCell.h */,
+				1E10E3401C19AE6400CE04AB /* UITableViewCell+CCLPopCell.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		1E6EACB31C0BD6470021B80F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E6EACC31C0BD7B30021B80F /* ViewController.h */,
+				1E6EACC41C0BD7B30021B80F /* ViewController.m */,
+				1E1E49111C1909DF005F1B33 /* CCLPaintbrushViewController.h */,
+				1E1E49121C1909DF005F1B33 /* CCLPaintbrushViewController.m */,
+				1E1E49181C191C87005F1B33 /* CCLBackgroundViewController.h */,
+				1E1E49191C191C87005F1B33 /* CCLBackgroundViewController.m */,
+				1E10E33C1C199E1600CE04AB /* CCLFunctionViewController.h */,
+				1E10E33D1C199E1600CE04AB /* CCLFunctionViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1E6EACB41C0BD6560021B80F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E6EACC01C0BD7A80021B80F /* CCLDrawingView.h */,
+				1E6EACC11C0BD7A80021B80F /* CCLDrawingView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1E6EACB51C0BD65D0021B80F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1E6EACBA1C0BD7920021B80F /* CCLPath.h */,
+				1E6EACBB1C0BD7920021B80F /* CCLPath.m */,
+				1E6EACBC1C0BD7920021B80F /* CCLSetting.h */,
+				1E6EACBD1C0BD7920021B80F /* CCLSetting.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1E6EACB61C0BD6C10021B80F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				6EB4C14B1BE5077E005C312F /* AppDelegate.h */,
+				6EB4C14C1BE5077E005C312F /* AppDelegate.m */,
+				6EB4C1511BE5077E005C312F /* Main.storyboard */,
+				6EB4C1561BE5077E005C312F /* LaunchScreen.storyboard */,
+				6EB4C1591BE5077E005C312F /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		6EB4C13C1BE5077E005C312F = {
+			isa = PBXGroup;
+			children = (
+				6EB4C1471BE5077E005C312F /* SimpleDrawingBoard */,
+				6EB4C1461BE5077E005C312F /* Products */,
+				C8DFD5D8EC5155B6DE3EA876 /* Pods */,
+				D023E44B0391C78631CD209A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6EB4C1461BE5077E005C312F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EB4C1451BE5077E005C312F /* SimpleDrawingBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EB4C1471BE5077E005C312F /* SimpleDrawingBoard */ = {
+			isa = PBXGroup;
+			children = (
+				1E1E49141C1915DD005F1B33 /* Categories */,
+				1E6EACB51C0BD65D0021B80F /* Models */,
+				1E6EACB41C0BD6560021B80F /* Views */,
+				1E6EACB31C0BD6470021B80F /* Controllers */,
+				1E6EACB61C0BD6C10021B80F /* Others */,
+				6EB4C1541BE5077E005C312F /* Assets.xcassets */,
+				6EB4C1481BE5077E005C312F /* Supporting Files */,
+			);
+			path = SimpleDrawingBoard;
+			sourceTree = "<group>";
+		};
+		6EB4C1481BE5077E005C312F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EB4C1491BE5077E005C312F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8DFD5D8EC5155B6DE3EA876 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E56A6A5E0C3B4974A1E0650 /* Pods-SimpleDrawingBoard.debug.xcconfig */,
+				B928D9C246E0A8711D777253 /* Pods-SimpleDrawingBoard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D023E44B0391C78631CD209A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC99F6E0D174175D9B68D7BD /* libPods-SimpleDrawingBoard.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EB4C1441BE5077E005C312F /* SimpleDrawingBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB4C15C1BE5077E005C312F /* Build configuration list for PBXNativeTarget "SimpleDrawingBoard" */;
+			buildPhases = (
+				D56ADDC9EEABECD1DA2BB6FD /* Check Pods Manifest.lock */,
+				6EB4C1411BE5077E005C312F /* Sources */,
+				6EB4C1421BE5077E005C312F /* Frameworks */,
+				6EB4C1431BE5077E005C312F /* Resources */,
+				2C865582B1E40596B3F355BB /* Embed Pods Frameworks */,
+				C0978345D4D7F08322E22CE6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleDrawingBoard;
+			productName = SimpleDrawingBoard;
+			productReference = 6EB4C1451BE5077E005C312F /* SimpleDrawingBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EB4C13D1BE5077E005C312F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CCL;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ccl;
+				TargetAttributes = {
+					6EB4C1441BE5077E005C312F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 6EB4C1401BE5077E005C312F /* Build configuration list for PBXProject "SimpleDrawingBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EB4C13C1BE5077E005C312F;
+			productRefGroup = 6EB4C1461BE5077E005C312F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EB4C1441BE5077E005C312F /* SimpleDrawingBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EB4C1431BE5077E005C312F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB4C1581BE5077E005C312F /* LaunchScreen.storyboard in Resources */,
+				6EB4C1551BE5077E005C312F /* Assets.xcassets in Resources */,
+				6EB4C1531BE5077E005C312F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C865582B1E40596B3F355BB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleDrawingBoard/Pods-SimpleDrawingBoard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0978345D4D7F08322E22CE6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleDrawingBoard/Pods-SimpleDrawingBoard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56ADDC9EEABECD1DA2BB6FD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EB4C1411BE5077E005C312F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1E49171C19164A005F1B33 /* UIButton+CCLBtn.m in Sources */,
+				1E1E49131C1909DF005F1B33 /* CCLPaintbrushViewController.m in Sources */,
+				1E6EACBE1C0BD7920021B80F /* CCLPath.m in Sources */,
+				1E10E33E1C199E1600CE04AB /* CCLFunctionViewController.m in Sources */,
+				1E6EACC21C0BD7A80021B80F /* CCLDrawingView.m in Sources */,
+				1E6EACC51C0BD7B30021B80F /* ViewController.m in Sources */,
+				1E10E3411C19AE6400CE04AB /* UITableViewCell+CCLPopCell.m in Sources */,
+				6EB4C14D1BE5077E005C312F /* AppDelegate.m in Sources */,
+				1E1E491A1C191C87005F1B33 /* CCLBackgroundViewController.m in Sources */,
+				1E6EACBF1C0BD7920021B80F /* CCLSetting.m in Sources */,
+				6EB4C14A1BE5077E005C312F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EB4C1511BE5077E005C312F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB4C1521BE5077E005C312F /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6EB4C1561BE5077E005C312F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB4C1571BE5077E005C312F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EB4C15A1BE5077E005C312F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6EB4C15B1BE5077E005C312F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EB4C15D1BE5077E005C312F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E56A6A5E0C3B4974A1E0650 /* Pods-SimpleDrawingBoard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleDrawingBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccl.SimpleDrawingBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		6EB4C15E1BE5077E005C312F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B928D9C246E0A8711D777253 /* Pods-SimpleDrawingBoard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleDrawingBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccl.SimpleDrawingBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EB4C1401BE5077E005C312F /* Build configuration list for PBXProject "SimpleDrawingBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB4C15A1BE5077E005C312F /* Debug */,
+				6EB4C15B1BE5077E005C312F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB4C15C1BE5077E005C312F /* Build configuration list for PBXNativeTarget "SimpleDrawingBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB4C15D1BE5077E005C312F /* Debug */,
+				6EB4C15E1BE5077E005C312F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EB4C13D1BE5077E005C312F /* Project object */;
+}
