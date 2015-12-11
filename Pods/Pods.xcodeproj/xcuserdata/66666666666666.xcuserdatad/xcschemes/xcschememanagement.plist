@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Color-Picker-for-iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>Pods-SimpleDrawingBoard.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -31,6 +36,16 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>4BF092F288429CD0A60B58C1A7DB03D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>755FBB5FCCD5F54D32B6F58762D7E83E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>7DACE2471239A7EDDCFE646AA0BB41DF</key>
 		<dict>
 			<key>primary</key>
@@ -47,6 +62,16 @@
 			<true/>
 		</dict>
 		<key>988EEAEC4D3B1DDB13B37165AC3BCCDC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9A78C3A05A5998BFD2C6B372328EAE74</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D827303A053E87C5B35C3A0CC69257CF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

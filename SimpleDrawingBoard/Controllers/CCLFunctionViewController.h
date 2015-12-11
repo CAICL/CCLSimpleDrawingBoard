@@ -11,5 +11,5 @@
 
 @interface CCLFunctionViewController : UITableViewController
 
-@property (nonatomic,strong) id<CCLPopCellDelegate>delegate;
+@property (nonatomic,weak) id<CCLPopCellDelegate>delegate;
 @end

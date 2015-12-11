@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1E10E33E1C199E1600CE04AB /* CCLFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E33D1C199E1600CE04AB /* CCLFunctionViewController.m */; };
 		1E10E3411C19AE6400CE04AB /* UITableViewCell+CCLPopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E3401C19AE6400CE04AB /* UITableViewCell+CCLPopCell.m */; };
+		1E171FC91C1ADB77006E8CAF /* CCLChooseColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E171FC81C1ADB77006E8CAF /* CCLChooseColorViewController.m */; };
 		1E1E49131C1909DF005F1B33 /* CCLPaintbrushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1E49121C1909DF005F1B33 /* CCLPaintbrushViewController.m */; };
 		1E1E49171C19164A005F1B33 /* UIButton+CCLBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1E49161C19164A005F1B33 /* UIButton+CCLBtn.m */; };
 		1E1E491A1C191C87005F1B33 /* CCLBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1E49191C191C87005F1B33 /* CCLBackgroundViewController.m */; };
@@ -29,6 +30,8 @@
 		1E10E33D1C199E1600CE04AB /* CCLFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLFunctionViewController.m; sourceTree = "<group>"; };
 		1E10E33F1C19AE6400CE04AB /* UITableViewCell+CCLPopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+CCLPopCell.h"; sourceTree = "<group>"; };
 		1E10E3401C19AE6400CE04AB /* UITableViewCell+CCLPopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+CCLPopCell.m"; sourceTree = "<group>"; };
+		1E171FC71C1ADB77006E8CAF /* CCLChooseColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLChooseColorViewController.h; sourceTree = "<group>"; };
+		1E171FC81C1ADB77006E8CAF /* CCLChooseColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLChooseColorViewController.m; sourceTree = "<group>"; };
 		1E1E49111C1909DF005F1B33 /* CCLPaintbrushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLPaintbrushViewController.h; sourceTree = "<group>"; };
 		1E1E49121C1909DF005F1B33 /* CCLPaintbrushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLPaintbrushViewController.m; sourceTree = "<group>"; };
 		1E1E49151C19164A005F1B33 /* UIButton+CCLBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CCLBtn.h"; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 				1E1E49191C191C87005F1B33 /* CCLBackgroundViewController.m */,
 				1E10E33C1C199E1600CE04AB /* CCLFunctionViewController.h */,
 				1E10E33D1C199E1600CE04AB /* CCLFunctionViewController.m */,
+				1E171FC71C1ADB77006E8CAF /* CCLChooseColorViewController.h */,
+				1E171FC81C1ADB77006E8CAF /* CCLChooseColorViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -307,6 +312,7 @@
 			files = (
 				1E1E49171C19164A005F1B33 /* UIButton+CCLBtn.m in Sources */,
 				1E1E49131C1909DF005F1B33 /* CCLPaintbrushViewController.m in Sources */,
+				1E171FC91C1ADB77006E8CAF /* CCLChooseColorViewController.m in Sources */,
 				1E6EACBE1C0BD7920021B80F /* CCLPath.m in Sources */,
 				1E10E33E1C199E1600CE04AB /* CCLFunctionViewController.m in Sources */,
 				1E6EACC21C0BD7A80021B80F /* CCLDrawingView.m in Sources */,

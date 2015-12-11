@@ -15,6 +15,7 @@
 #import "CCLBackgroundViewController.h"
 #import "CCLFunctionViewController.h"
 #import "UITableViewCell+CCLPopCell.h"
+#import "CCLChooseColorViewController.h"
 
 
 @interface ViewController ()<WEPopoverControllerDelegate, CCLPopCellDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
@@ -28,6 +29,7 @@
 
 @property (weak, nonatomic) IBOutlet UIView *paintToolView;
 @property (weak, nonatomic) IBOutlet UIButton *paintbrushBtn;
+@property (weak, nonatomic) IBOutlet UIButton *chooseColorBtn;
 @property (weak, nonatomic) IBOutlet UIButton *backgroundBtn;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *functionBarButtonItem;
 @property (nonatomic, strong) WEPopoverController *popoverController;
@@ -62,6 +64,10 @@
     CCLBackgroundViewController *VC = [CCLBackgroundViewController new];
     
     [self presentPOPViewWithViewController:VC andControl:sender];
+}
+- (IBAction)chooseColorBtnClick:(id)sender {
+    CCLChooseColorViewController *colorVC = [[CCLChooseColorViewController alloc]initWithColor:[UIColor blueColor] fullColor:YES];
+    [self presentPOPViewWithViewController:colorVC andControl:self.chooseColorBtn];
 }
 - (IBAction)functionBarBtnitem:(id)sender {
     CCLFunctionViewController *VC = [CCLFunctionViewController new];
